@@ -8,7 +8,14 @@ module.exports = {
     // You can overwrite values here that are used for the SEO component
     // You can also add new values here to query them like usual
     // See all options: https://github.com/LekoArts/gatsby-themes/blob/master/themes/gatsby-theme-cara/gatsby-config.js
-    siteTitleAlt: `Cole Martin | Computer Science`,
+        siteTitle: `Cole Martin`,
+        siteTitleAlt: `Cole Martin | Computer Science`,
+        siteHeadline: `Cole Martin | Portfolio`,
+        siteUrl: `https://colemmartin.gatsby.io`,
+        siteDescription: `Public Collection of Cole Martin's Projects`,
+        siteLanguage: `en`,
+        siteImage: `/banner.jpg`,
+        author: `@Cole_Martin16`,
   },
   flags: {
     FAST_DEV: true,
@@ -37,12 +44,12 @@ module.exports = {
         display: `standalone`,
         icons: [
           {
-            src: `/android-chrome-192x192.png`,
+            src: `/favicon-192.png`,
             sizes: `192x192`,
             type: `image/png`,
           },
           {
-            src: `/android-chrome-512x512.png`,
+            src: `/favicon-512.png`,
             sizes: `512x512`,
             type: `image/png`,
           },
