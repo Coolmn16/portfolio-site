@@ -9,6 +9,8 @@ import Svg from "@lekoarts/gatsby-theme-cara/src/components/svg"
 import Seo from "@lekoarts/gatsby-theme-cara/src/components/seo"
 import Content from "@lekoarts/gatsby-theme-cara/src/elements/content"
 import Inner from "@lekoarts/gatsby-theme-cara/src/elements/inner"
+// @ts-ignore
+import IntroMDX from "./Text/CoC2Intro"
 
 
 const CoC2Intro = ({ offset, factor = 1 }: { offset: number; factor?: number }) => (
@@ -41,9 +43,7 @@ const CoC2Intro = ({ offset, factor = 1 }: { offset: number; factor?: number }) 
         </Divider>
         <Content speed={0.4} offset={offset} factor={factor}>
             <Inner>
-                <Themed.p>
-                    Find it on <Link to="https://store.steampowered.com/app/1292690/Corruption_of_Champions_II/">Steam</Link> or play it <Link to="https://www.fenoxo.com/play/CoC2/release/">Here</Link>.
-                            </Themed.p>
+                <IntroMDX />
             </Inner>
         </Content>
     </div>

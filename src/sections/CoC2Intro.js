@@ -1,13 +1,13 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = require("react");
-var gatsby_1 = require("gatsby");
-var theme_ui_1 = require("theme-ui");
 var divider_1 = require("@lekoarts/gatsby-theme-cara/src/elements/divider");
 var animations_1 = require("@lekoarts/gatsby-theme-cara/src/styles/animations");
 var svg_1 = require("@lekoarts/gatsby-theme-cara/src/components/svg");
 var content_1 = require("@lekoarts/gatsby-theme-cara/src/elements/content");
 var inner_1 = require("@lekoarts/gatsby-theme-cara/src/elements/inner");
+// @ts-ignore
+var CoC2Intro_1 = require("./Text/CoC2Intro");
 var CoC2Intro = function (_a) {
     var offset = _a.offset, _b = _a.factor, factor = _b === void 0 ? 1 : _b;
     return (React.createElement("div", null,
@@ -30,12 +30,7 @@ var CoC2Intro = function (_a) {
             React.createElement(svg_1.default, { icon: "hexa", width: 8, stroke: true, color: "icon_darkest", left: "80%", top: "70%" })),
         React.createElement(content_1.default, { speed: 0.4, offset: offset, factor: factor },
             React.createElement(inner_1.default, null,
-                React.createElement(theme_ui_1.Themed.p, null,
-                    "Find it on ",
-                    React.createElement(gatsby_1.Link, { to: "https://store.steampowered.com/app/1292690/Corruption_of_Champions_II/" }, "Steam"),
-                    " or play it ",
-                    React.createElement(gatsby_1.Link, { to: "https://www.fenoxo.com/play/CoC2/release/" }, "Here"),
-                    ".")))));
+                React.createElement(CoC2Intro_1.default, null)))));
 };
 exports.default = CoC2Intro;
 //# sourceMappingURL=CoC2Intro.js.map
