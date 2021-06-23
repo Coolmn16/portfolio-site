@@ -1,16 +1,12 @@
 {
   "ExpandedNodes": [
     "",
-    "\\node_modules\\@lekoarts",
-    "\\node_modules\\@lekoarts\\gatsby-theme-cara",
-    "\\node_modules\\@lekoarts\\gatsby-theme-cara\\src",
-    "\\node_modules\\@lekoarts\\gatsby-theme-cara\\src\\sections",
     "\\src",
     "\\src\\@lekoarts",
     "\\src\\@lekoarts\\gatsby-theme-cara",
     "\\src\\@lekoarts\\gatsby-theme-cara\\sections",
     "\\src\\pages"
   ],
-  "SelectedNode": "\\src\\@lekoarts\\gatsby-theme-cara\\sections\\about.mdx",
+  "SelectedNode": "\\src\\@lekoarts\\gatsby-theme-cara\\sections\\projects.mdx",
   "PreviewInSolutionExplorer": false
 }
